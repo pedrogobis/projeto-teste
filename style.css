@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #38638D,#102341);
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+header{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    
+    
+}
+
+nav{
+    background-color: #102341;
+    overflow: hidden;
+    min-width: 300px;
+    max-width: 1011px;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 5px 5px 15px #0c1a30b0;
+
+}
+
+nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+nav a:hover{
+    background-color: #38638D;
+    color: aqua;
+}
+
+/*
+.menu{
+    background-color: rgba(31, 35, 70, 0.836);
+    border-radius: 10px 10px 0px 0px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+
+
+.menu a{
+    display: inline;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu li{
+    display: inline;
+    padding: 20px;
+}
+}*/
+
+main{
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 15px #0c1a30b0;
+    min-width: 300px;
+    max-width: 1000px; /* por causa desse que tava todo torto o site*/
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: auto;
+    transition: 0.5s;
+   
+}
+
+
+h1{
+    color: #124B60;
+    text-align: center;
+    text-shadow: 1px 1px 2px #0a2c38;
+    padding: 10px;
+
+}
+
+h2{
+    color: #2A5C77;
+    padding: 10px;
+}
+
+main p{
+    margin: 15px 0px;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.5em;
+    color: black;
+}
+
+
+picture{
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+.cadas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.botao1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.input{
+    margin-top: 10em;
+    margin-right: 10em;
+    margin-bottom: 10em;
+    margin-left: 10em;
+}
+
+footer{
+    margin-top: 15px;
+    background-color: #102341;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    
+    
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+footer a:hover{
+    color: #38638D;
+}
